@@ -1,0 +1,175 @@
+/*============================BLOCGENERAL===================*/
+h3{
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+#content{
+    font-family: 'open_sansregular';
+    font-size: 0.7em;
+}
+
+#vid{
+    margin-top: 30px;
+}
+
+#infos{margin-top: 20px;}
+
+#infos > div{
+    position: relative;
+}
+
+#infos h3:hover{
+    color: #F4053C;
+}
+#infos h3:hover::after{
+    background-color: #F4053C;
+}
+#infos h3::after{
+content: '';
+background-image: url('../img/hachures.png');
+background-color: #333637;
+width: 100%;
+height: 20px;
+position: absolute;
+left: 0;
+top: 35px;
+}
+
+#infos a{
+    text-decoration: none;
+}
+
+#infos > div > a:hover h3{
+    color: #F4053C;
+}
+#infos > div > a:hover h3:after{
+    background-color: #F4053C;
+}
+
+#infos > div:first-child > div{
+    width: 100%;
+    height: 200px;
+    background-color: #333637;
+}
+/*AGENDA*/
+#infos .item{margin-bottom: 10px;}
+#infos .item .date{
+    display: inline-block;
+    width: 70px;
+    padding: 0 15px;
+    height: 60px;
+    vertical-align: top;
+}
+#infos .item .date span{
+    display: block;
+    text-align: center;}
+#infos .item .date > span:first-child{
+    font-family: 'open_sans_condensedbold';
+    font-size: 2.2em;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: text-top;
+    }
+#infos .item .date > span:last-child{
+    font-size: 1em;
+    text-transform: uppercase;}
+
+#infos .item > .event{
+    display: inline-block;
+    width: 130px;
+}
+#infos .item > .event > h4{
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 0.95em;
+}
+#infos .item > .event > p{
+    font-size: 0.8em;
+    margin: 0;
+}
+/*TEMOIGNAGES*/
+#infos > div:last-child > div{
+    width: 100%;
+    background-color: grey;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+#infos > div:last-child h4{
+    margin: 0 0 5px 0;
+    padding: 5px 0;
+    font-size: 1em;
+    text-transform: uppercase;
+    border-bottom: solid 0.5px #333637;
+    font-family: 'open_sans_condensedbold';
+}
+/*SOCIALNETWORKS*/
+#social{
+    margin: 15px auto 0 auto;
+}
+
+#social > h3{
+    position: relative;
+}
+
+#social > h3::after{
+    content: '';
+    background-image: url('../img/hachures.png');
+    background-color: #333637;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 35px;
+}
+
+#fb{
+    height: 450px;
+    width: 45%;
+    display: inline-block;
+}
+
+.main_wrap #fb > div > span{width: 300px;}
+.main_wrap #fb > div > span > iframe{width: 300px;}
+
+#tw{
+    width: 45%;
+    margin-bottom: 25px;
+    height: 445px;
+    float: right;
+    position: relative;
+}
+
+#ig{
+    margin: 40px auto 0 auto;
+    width: 700px;
+}
+
+#fb::before,
+#tw::before,
+#ig::before{
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.2em;
+    width: 40px;
+    height: 40px;
+    font-family: FontAwesome;
+    color: #ffff00;
+    background-color: #333637;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#fb::before{content: "\f09a";}
+#tw::before{content: "\f099";}
+#ig::before{content: "\f16d";}
+
+#twitter-widget-0 { 
+      width: 100%; 
+    }
+
+#ig iframe{
+    width: 100% !important;
+}

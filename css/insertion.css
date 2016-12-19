@@ -1,0 +1,41 @@
+#bu{
+	height: 200px;
+}
+
+#articles{
+	text-align: center;
+	vertical-align: top;
+}
+.article{
+	width: 340px;
+	min-height: 200px;
+	display: inline-block;
+	text-align: center;
+	margin: 5px 5px 10px 5px;
+	position: relative;
+	vertical-align: top;
+}
+
+.article > a{
+	text-decoration: none;
+}
+
+.article > a > h3{margin-bottom: 30px;}
+
+.article > a > h3:after{
+content: '';
+background-image: url('../img/hachures.png');
+background-color: #333637;
+width: 100%;
+height: 20px;
+position: absolute;
+left: 0;
+top: 35px;
+}
+
+.article:hover h3{
+    color: #F4053C;
+}
+.article:hover h3::after{
+    background-color: #F4053C;
+}

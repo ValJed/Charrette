@@ -1,0 +1,128 @@
+#agenda-wrap {
+    margin-left: 20px;
+    color: #333637; /* A VERIFIER : laisser en black ? */
+}
+.intropage {
+    margin: 0px;
+    padding: 20px;
+}
+.agenda-item p {
+    font-family: 'open_sansregular', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+#agenda-liste-wrap {
+    margin-top: 20px;
+    margin-right: 1em;
+}
+#agenda-liste-wrap h3 {
+    text-transform: uppercase;
+    font-family: 'open_sans_condensedbold', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.45em;
+    line-height: 1em;
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+    background: url('../img/hachures.png') left bottom repeat-x;
+}
+#agenda-liste {
+    margin: 20px 0;
+    font-family: 'open_sansregular', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+}
+.agenda-item {
+    margin-bottom: 20px;
+}
+.agenda-item > p:first-child {
+    text-align: center;
+    float: left;
+    width: 3em;
+    margin: 0 10px;
+    padding-right: 10px;
+    border-right : 1px solid rgba(51,54,55,0.7);
+}
+.agenda-item > p span:first-child {
+    display: block;
+    font-family: 'open_sans_condensedbold', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.3em;
+    line-height: 1.1em;
+    height: 1.1em;
+    letter-spacing: 0.02em;
+    word-wrap: normal;
+}
+.agenda-item > p span:last-child {
+    display: block;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    height: 1.1em;
+    font-size: 0.85em;
+    word-wrap: normal;
+}
+.agenda-item div {
+    margin-bottom: 0px;
+}
+.agenda-item h4 {
+    text-transform: uppercase;
+    line-height: 1.6em;
+    text-align: left;
+    margin: 0;
+    padding: 2.5px 0 0 0;
+    font-size: 0.85em;
+}
+.agenda-item h4 + p {
+    margin-top: 2.5px;
+    font-size: 0.85em;
+}
+.agenda-item a {
+    text-decoration: none;
+}
+.agenda-item a:hover {
+    color: #f4053c;
+}
+.agenda-item-detail {
+    margin-top: 15px;
+}
+.agenda-item-pratique p:first-child {
+    font-weight: bold;
+    vertical-align: top;
+    margin-left: -0.1rem;
+}
+.agenda-item-pratique p {
+    display: inline-block;
+}
+.agenda-item-pratique p:last-child {
+    width: 75%;
+}
+.agenda-item-pratique p {
+    margin-top: 0.5em;
+    font-size: 0.85em;
+}
+.agenda-item-pratique {
+    vertical-align: top;
+}
+.agenda-item-pratique div {
+    border-bottom : 1px solid rgba(51,54,55,0.7);
+    padding-top: 0;
+    margin-left: 0.1rem;
+    padding-bottom: 0.5em;
+}
+.agenda-item-pratique div:first-child {
+    border-top : 1px solid rgba(51,54,55,0.7);
+    margin-top: 15px;
+    padding-top: 0em;
+}
+.agenda-item-detail span {
+    display: inline;
+    text-transform: uppercase;
+    font-family: 'open_sansregular', Helvetica, Arial, sans-serif;
+    font-size: 1em;
+}
+.agenda-item-detail {
+    display: none;
+}
